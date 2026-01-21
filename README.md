@@ -6,6 +6,7 @@
 
 
 ![分析首页](https://github.com/wxzz/AI_Doctor/blob/main/%E5%88%86%E6%9E%90%E9%A6%96%E9%A1%B5.jpg)
+![分析记录](https://github.com/wxzz/AI_Doctor/blob/main/%E5%88%86%E6%9E%90%E8%AE%B0%E5%BD%95.jpg)
 
 ## 核心功能
 
