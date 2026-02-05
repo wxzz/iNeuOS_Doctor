@@ -9,7 +9,7 @@
 ![分析记录](https://github.com/wxzz/AI_Doctor/blob/main/%E5%88%86%E6%9E%90%E8%AE%B0%E5%BD%95.jpg)
 
 ## 核心功能
-
+- **网站试用**：https://www.aineuos.net
 ### 📊 多模态医学影像分析
 支持多种医学影像格式的分析，包括：
 - **医学影像**：CT扫描、核磁共振(MRI)影像、组织病理成像
