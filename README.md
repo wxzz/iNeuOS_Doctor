@@ -10,6 +10,8 @@
 
 ## 核心功能
 - **网站试用**：https://www.aineuos.net
+- **微信小程序**:在微信小程序中搜索：Ai体征分析助手。
+
 ### 📊 多模态医学影像分析
 支持多种医学影像格式的分析，包括：
 - **医学影像**：CT扫描、核磁共振(MRI)影像、组织病理成像
@@ -112,29 +114,46 @@
 
 ## API端点
 
+### 认证与用户
 | 端点 | 方法 | 功能 |
 |------|------|------|
 | `/api/register_user` | GET/POST | 用户注册（含短信验证码） |
 | `/api/send_verify_sms_code` | POST | 发送短信验证码 |
-| `/api/login_user` | POST | 用户登录 |
+| `/api/login_user` | POST | 用户登录（返回 `token` 与 `session_id`） |
 | `/api/login_out` | POST | 退出登录 |
 | `/api/change_password` | POST | 修改密码 |
 | `/api/get_myinfo` | GET | 获取用户信息 |
 | `/api/update_avatar` | POST | 更新头像 |
 | `/api/generate_invite_code` | GET | 生成邀请码 |
-| `/api/submit_medicalrecord` | POST | 提交诊断请求 |
+| `/api/invite_record` | GET | 邀请记录 |
+
+### 医学分析与问诊
+| 端点 | 方法 | 功能 |
+|------|------|------|
+| `/api/medical` | POST | 提交医学分析（文字+可选影像） |
+| `/api/medical_chat` | POST | 病情问诊（流式返回，需 `session_id`） |
 | `/api/get_medicalrecords` | GET | 获取诊断历史 |
 | `/api/delete_medicalrecord` | DELETE | 删除诊断记录 |
+| `/api/upload_medicalrecord_pdf` | POST | 上传诊断记录PDF（返回下载链接） |
+| `/api/download_medicalrecord_pdf` | GET | 下载诊断记录PDF |
+| `/api/get_medicalchatrecods` | GET | 获取问诊会话列表 |
+| `/api/get_medicalchatrecod_messages` | GET | 获取问诊会话消息 |
+| `/api/delete_medicalchatrecod` | DELETE | 删除问诊会话 |
+| `/api/upload_medicalchatrecord_pdf` | POST | 上传问诊记录PDF（返回下载链接） |
+| `/api/download_medicalchatrecord_pdf` | GET | 下载问诊记录PDF |
+
+### 支付与提现
+| 端点 | 方法 | 功能 |
+|------|------|------|
 | `/api/wechat_native_pay` | POST | 微信Native支付下单 |
 | `/api/wechat_jsapi_pay` | POST | 微信JSAPI支付下单 |
 | `/api/wechat_pay_notify` | POST | 支付回调通知 |
 | `/api/wechat_pay_query` | GET | 支付订单查询 |
+| `/api/wechat_pay_record` | GET | 支付记录 |
 | `/api/wechat_withdraw` | POST | 提现申请 |
 | `/api/wechat_withdraw_notify` | POST | 提现回调通知 |
 | `/api/wechat_withdraw_query` | GET | 提现订单查询 |
 | `/api/wechat_withdraw_record` | GET | 提现记录 |
-| `/api/wechat_pay_record` | GET | 支付记录 |
-| `/api/invite_record` | GET | 邀请记录 |
 
 ## 安全说明
 
