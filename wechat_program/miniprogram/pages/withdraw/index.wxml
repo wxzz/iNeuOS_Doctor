@@ -1,0 +1,5 @@
+<view class="container">
+  <view class="title">正在提现，请稍后...</view>
+  <view class="desc">请在弹窗中完成确认收款</view>
+  <view class="desc">完成后将自动返回</view>
+</view>

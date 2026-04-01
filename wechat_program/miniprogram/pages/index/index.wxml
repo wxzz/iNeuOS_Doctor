@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<navigation-bar title="iNeuOS" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<view class="page-body">
+  <!-- <web-view class="webview" src="https://www.aineuos.net"></web-view> -->
+  <web-view
+    id="app-webview"
+    class="webview"
+    src="{{webviewSrc}}"
+    bindmessage="onWebviewMessage"
+    bindload="onWebviewLoad"
+    binderror="onWebviewError"
+  ></web-view>
+</view>

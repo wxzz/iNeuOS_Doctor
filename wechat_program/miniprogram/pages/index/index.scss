@@ -1,0 +1,24 @@
+/**index.scss**/
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.page-body {
+  flex: 1;
+  display: flex;
+  min-height: 0;
+}
+
+.webview {
+  flex: 1;
+}
+
+.webview-tip {
+  padding: 16px;
+  color: #d93026;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}

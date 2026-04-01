@@ -1,0 +1,18 @@
+<view class="container">
+  <view wx:if="{{loading}}" class="pay-loading">
+     <view class="title">正在支付，请稍候...</view>
+     <view class="desc">在弹窗中输入密码完成支付</view>
+     <view class="desc">完成后将自动返回</view>
+  </view>
+  <view wx:if="{{!loading}}">
+    <view wx:if="{{status === 'success'}}" class="pay-success">
+      <text>支付成功！</text>
+    </view>
+    <view wx:if="{{status === 'fail'}}" class="pay-fail">
+      <text>支付失败：{{errMsg}}</text>
+    </view>
+    <view wx:if="{{status === 'created'}}" class="pay-created">
+      <text>支付已创建，等待结果...</text>
+    </view>
+  </view>
+</view>

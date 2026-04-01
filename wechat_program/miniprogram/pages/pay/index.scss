@@ -1,0 +1,45 @@
+.container {
+  min-height: 100vh;
+  padding: 48px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f7f7f7;
+  color: #333;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.desc {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 6px;
+}
+
+.pay-loading {
+  color: #888;
+  font-size: 18px;
+  margin-top: 40px;
+}
+.pay-success {
+  color: #4caf50;
+  font-size: 20px;
+  margin-top: 40px;
+}
+.pay-fail {
+  color: #f44336;
+  font-size: 18px;
+  margin-top: 40px;
+}
+.pay-created {
+  color: #2196f3;
+  font-size: 18px;
+  margin-top: 40px;
+}
