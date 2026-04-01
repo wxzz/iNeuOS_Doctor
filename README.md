@@ -242,7 +242,7 @@ npm install
 MIT许可证：允许用户自由使用、修改和分发源代码，适用于商业应用，但需保留作者版权声明。
 
 ## 联系方式
-QQ:504547114。
+**QQ**:504547114。
 
 **网站**:[https://www.ineuos.net](https://www.ineuos.net)
 
