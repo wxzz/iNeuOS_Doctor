@@ -15,14 +15,14 @@
 - （4）经济实惠：有效降低医疗成本，让普惠医疗真正落地。
 
 ### 软件截图（images目录）
-1. [1.医学分析](images/1.医学分析.jpg)
-2. [2.历史分析](images/2.历史分析.jpg)
-3. [3.邀请记录](images/3.邀请记录.jpg)
-4. [4.赞助记录](images/4.赞助记录.jpg)
-5. [5.提现记录](images/5.提现记录.jpg)
-6. [6.我的](images/6.我的.jpg)
-7. [7.邀请好友](images/7.邀请好友.jpg)
-8. [8.移动端](images/8.移动端.png)
+1. [1.医学分析](https://github.com/wxzz/iNeuOS_Doctor/blob/main/images/1.%E5%8C%BB%E5%AD%A6%E5%88%86%E6%9E%90.jpg)
+2. [2.历史分析](https://github.com/wxzz/iNeuOS_Doctor/blob/main/images/2.%E5%8E%86%E5%8F%B2%E5%88%86%E6%9E%90.jpg)
+3. [3.邀请记录](https://github.com/wxzz/iNeuOS_Doctor/blob/main/images/3.%E9%82%80%E8%AF%B7%E8%AE%B0%E5%BD%95.jpg)
+4. [4.赞助记录](https://github.com/wxzz/iNeuOS_Doctor/blob/main/images/4.%E8%B5%9E%E5%8A%A9%E8%AE%B0%E5%BD%95.jpg)
+5. [5.提现记录](https://github.com/wxzz/iNeuOS_Doctor/blob/main/images/5.%E6%8F%90%E7%8E%B0%E8%AE%B0%E5%BD%95.jpg)
+6. [6.我的](https://github.com/wxzz/iNeuOS_Doctor/blob/main/images/6.%E6%88%91%E7%9A%84.jpg)
+7. [7.邀请好友](https://github.com/wxzz/iNeuOS_Doctor/blob/main/images/7.%E9%82%80%E8%AF%B7%E5%A5%BD%E5%8F%8B.jpg)
+8. [8.移动端](https://github.com/wxzz/iNeuOS_Doctor/blob/main/images/8.%E7%A7%BB%E5%8A%A8%E7%AB%AF.png)
 
 ## 核心功能
 - **网站试用**：[https://www.ineuos.net](https://www.ineuos.net)
