@@ -26,7 +26,7 @@
 8. [8.移动端](images/8.移动端.png)
 
 ## 核心功能
-- **网站试用**：https://www.ineuos.net
+- **网站试用**：[https://www.ineuos.net](https://www.ineuos.net)
 - **微信小程序**:在微信小程序中搜索：Ai体征分析助手。
 - **多端支持**：Web端（frontend）与微信小程序端（wechat_program）统一接入后端接口。
 
@@ -242,8 +242,10 @@ npm install
 MIT许可证：允许用户自由使用、修改和分发源代码，适用于商业应用，但需保留作者版权声明。
 
 ## 联系方式
-
 QQ:504547114。
+
+## 网站
+[https://www.ineuos.net](https://www.ineuos.net)
 
 **开发团队**：iNeuOS Team
 
